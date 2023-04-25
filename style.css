@@ -22,116 +22,7 @@ h1{
 }
 
 
-
-
-
-/* article */
-
-#article img{
-    width: 50%;
-    padding: 72px;
-}
-
-#auteur img{
-    width: 30%;
-}
-
-#auteur{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: auto;
-}
-
-
-#article{
-    margin-left:500px ;
-}
-
-#article h1{
-    color: brown;
-}
-
-#article h2{
-    color: blue;
-}
-
-#article h3{ 
-    color: blue;
-}
-
-#auteur p{
-    font-size: 12px;
-}
-
-#article a{
-    border: 2px solid black;
-    padding: 10px;
-    background-color: blue;
-    color: azure;
-    margin: 10px;
-}
-
-#social-media{
-    display: flex;
-}
-
-
-
-
-/* section à propos */
-
-#about{
-    padding: 5%;
-    border: 2px solid pink;
-    margin: 80px;
-    box-shadow: 10px 5px 5px #fff;
-    background-color: rgba(255, 255, 255, 0.7);
-}
-
-#àpropos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
-    background-image: url(img/3892ddc66d8112551b93a9abf4e53d17.jpg);
-}
-
-#about-img img{
-    margin-right: 70px;
-}
-
-#about img{
-    width: 40%;
-    margin: 0 30%;
-    padding-top: 50px;
-}
-
-/* section contact */
-
-#contact-form{
-    background-image: url(img/3892ddc66d8112551b93a9abf4e53d17.jpg);
-    height: 100vh;
-}
-
-#contact-box{
-    width: 40%;
-    height: 100vh;
-    background-color: rgba(255, 255, 255, 0.7);
-    margin: auto;
-    padding-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: black;
-}
-
-#contact-box img{
-    width: 20%;
-}
-
-body {
-    font-family: 'montserrat';
-}
+/* navbar */
 
 nav {
     display: flex;
@@ -142,13 +33,16 @@ nav {
 .main-nav {
     display: flex;
     justify-items: flex-end;
-    
     list-style: none;
-
 }
+
 li {
     padding: 0 10px;
+    text-transform: uppercase;
+
 }
+
+/* section articles (accueil) */
 
 .social {
     margin-right: 50px;
@@ -169,10 +63,7 @@ li {
     color: white;
     background-color: black;
 }
-.push {
-    margin-left: auto;
-    text-align: center
-}   
+
 
 .firstdi {
     display: flex;
@@ -230,11 +121,128 @@ h3 {
     flex-direction: column;
     margin: auto;
     width: 900px;
+    margin-top: 100px;
 }
 
 
 input[type='image'] {
     width: 10px;
 }
+
+/* article */
+
+#article img{
+    width: 50%;
+    padding: 72px;
+}
+
+#auteur img{
+    width: 30%;
+}
+
+#auteur{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+#article{
+    margin-left:500px ;
+}
+
+#article h1{
+    color: brown;
+}
+
+#article h2{
+    color: blue;
+}
+
+#article h3{ 
+    color: blue;
+}
+
+#auteur p{
+    font-size: 12px;
+}
+
+.social-media a{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: blue;
+    color: azure;
+    margin: 10px;
+}
+
+.social-media{
+    display: flex;
+}
+
+
+
+
+/* section à propos */
+
+#about h1{
+    color: black;
+}
+#about{
+    padding: 5%;
+    border: 2px solid pink;
+    margin: 80px;
+    box-shadow: 10px 5px 5px #fff;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#àpropos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    background-image: url(img/3892ddc66d8112551b93a9abf4e53d17.jpg);
+}
+
+#about-img img{
+    margin-right: 70px;
+}
+
+#about img{
+    width: 40%;
+    margin: 0 30%;
+    padding-top: 50px;
+}
+
+/* section contact */
+
+#contact-form{
+    background-image: url(img/3892ddc66d8112551b93a9abf4e53d17.jpg);
+    height: 100vh;
+}
+
+#contact-box{
+    width: 40%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+#contact-box img{
+    width: 20%;
+}
+
+#contact-box h1{
+    color: black;
+}
+
+
+
+
+
 
 
