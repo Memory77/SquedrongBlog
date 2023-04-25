@@ -9,10 +9,10 @@
 }
 
 #auteur{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
 }
 
 
@@ -36,12 +36,14 @@ margin: auto;
     font-size: 12px;
 }
 
-a{
+#article a{
     border: 2px solid black;
     padding: 10px;
     background-color: blue;
     color: azure;
+    margin: 10px;
 }
+
 #social-media{
     display: flex;
 }
