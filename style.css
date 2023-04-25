@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anuphan:wght@100&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anuphan:wght@100&family=Montserrat:wght@300;400&display=swap');
+
 
 
 html{
@@ -8,6 +9,7 @@ html{
 
 h1{
     font-family: 'Abril Fatface', cursive;
+    padding-bottom: 20px;
     text-transform: uppercase;
 }
 
@@ -42,13 +44,14 @@ h1{
 }
 
 #about img{
-    width: 80%;
-    margin: auto;
+    width: 40%;
+    margin: 0 30%;
+    padding-top: 50px;
 }
 
 /* section contact */
 
-#contact{
+#contact-form{
     background-image: url(img/3892ddc66d8112551b93a9abf4e53d17.jpg);
     height: 100vh;
 }
@@ -65,8 +68,8 @@ h1{
     color: black;
 }
 
-#content-box img{
-    border: 10px solid black;
+#contact-box img{
+    width: 20%;
 }
 
 
