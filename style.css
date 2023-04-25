@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anuphan:wght@100&family=Montserrat:wght@300;400&display=swap');
+
+
+
+html{
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.parallax{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+/* article */
 
 #article img{
     width: 50%;
@@ -48,28 +76,7 @@
     display: flex;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anuphan:wght@100&family=Montserrat:wght@300;400&display=swap');
 
-
-
-html{
-    font-family:'Montserrat', sans-serif;
-    font-size: 20px;
-}
-
-h1{
-    font-family: 'Abril Fatface', cursive;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-}
-
-.parallax{
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 
 /* section à propos */
@@ -121,8 +128,6 @@ h1{
 #contact-box img{
     width: 20%;
 }
-
-
 
 body {
     font-family: 'montserrat';
@@ -179,7 +184,7 @@ li {
     flex-direction: column ;
 }
 
-nav img {
+.second img {
     height: 200px;
     width: 350px;
 }
@@ -225,11 +230,11 @@ h3 {
     flex-direction: column;
     margin: auto;
     width: 900px;
-
-    
-    
-
 }
+
+
 input[type='image'] {
     width: 10px;
 }
+
+
