@@ -54,15 +54,14 @@ li {
 }
 
 img {
-    height: 200px;width: 350px;
+    height: 200px;
+    width: 350px;
 }
-.wrapper {
-    display: flex;
-    
-}
-.second {
+.second { 
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    
 }
 h1 {
    font-family: 'abril fatface'; font-size: 50px;
@@ -95,15 +94,14 @@ h3 {
     height: 400px;
     padding-left: 50px;
 }
-.one {
-    width: 800px;
-}
-.two {
-    width: 800px;   
-}
 #articles {
-    margin: 0 600px;
-    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 900px;
+
+    
+    
 }
 input[type='image'] {
     width: 10px;
