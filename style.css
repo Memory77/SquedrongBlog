@@ -34,6 +34,7 @@ nav {
     display: flex;
     justify-items: flex-end;
     list-style: none;
+    align-items: end;
 }
 
 li {
@@ -260,8 +261,11 @@ input[type='image'] {
 }
 
 #presentation-box h1{
-    color:purple;
+    color: black;
     text-align: center;
+    border: 2px solid purple;
+    background-color: #fff;
+    box-shadow: 20px 20px 20px fuchsia;
 }
 
 
