@@ -131,13 +131,9 @@ input[type='image'] {
 
 /* article */
 
-#article img{
-    width: 50%;
-    padding: 72px;
-}
-
 #auteur img{
-    width: 30%;
+    width: 80%;
+    margin-right: 559px;
 }
 
 #auteur{
@@ -149,11 +145,13 @@ input[type='image'] {
 
 
 #article{
-    margin-left:500px ;
+    margin-left:500px;
+    margin-right: 150px;
 }
 
 #article h1{
     color: brown;
+    font-size: 40px;
 }
 
 #article h2{
@@ -164,9 +162,15 @@ input[type='image'] {
     color: blue;
 }
 
-#auteur p{
-    font-size: 12px;
+#auteur p {
+    font-size: 18px;
 }
+
+#article p {
+    margin-right: 179px;
+    text-align: justify;
+}
+
 
 .social-media a{
     border: 2px solid black;
@@ -178,6 +182,7 @@ input[type='image'] {
 
 .social-media{
     display: flex;
+    list-style: none;
 }
 
 
