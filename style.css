@@ -21,6 +21,18 @@ h1{
     background-size: cover;
 }
 
+.social-linkedin{
+    background-color: blue;
+}
+
+.social-twitter{
+    background-color: rgb(94, 169, 240);
+}
+
+.social-black{
+    background-color: black;
+}
+
 
 /* navbar */
 
@@ -35,6 +47,7 @@ nav {
     justify-items: flex-end;
     list-style: none;
     align-items: end;
+    justify-content: end;
 }
 
 li {
@@ -123,12 +136,14 @@ h3 {
     margin: auto;
     width: 900px;
     margin-top: 100px;
+    gap: 30px;
 }
 
 
 input[type='image'] {
     width: 10px;
 }
+
 
 /* article */
 
@@ -176,7 +191,6 @@ input[type='image'] {
 .social-media a{
     border: 2px solid black;
     padding: 10px;
-    background-color: blue;
     color: azure;
     margin: 10px;
 }
