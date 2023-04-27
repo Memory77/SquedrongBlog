@@ -1,0 +1,85 @@
+.social {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+.social1 {
+    color: white;
+    background-color: cornflowerblue; 
+}
+.social2 {
+    color: white;
+    background-color: dodgerblue;
+}
+.social3 {
+    color: white;
+    background-color: black;
+}
+
+
+.firstdi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+.avant {
+    display: flex;
+    flex-direction: column ;
+}
+
+.second img {
+    height: 200px;
+    width: 350px;
+}
+.second { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+h1 {
+   font-family: 'abril fatface'; font-size: 50px;
+   color: fuchsia;
+}
+h2 {
+    font-size: 30px;
+}
+.down {
+    color: fuchsia;
+    text-decoration: underline;
+    text-decoration-color: fuchsia;
+}
+h3 {
+    color: fuchsia;
+    font-size: 20px;
+    line-height: 5px;
+}
+.date {
+    font-size: 10px;
+}
+.texte {
+    font-size: smaller;
+}
+.texte1 {
+    font-size: small;
+}
+.im1 {
+    width: 600px;
+    height: 400px;
+    padding-left: 50px;
+}
+#articles {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 900px;
+    margin-top: 100px;
+    gap: 30px;
+}
+
+
+input[type='image'] {
+    width: 10px;
+}

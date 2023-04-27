@@ -1,0 +1,28 @@
+/* section contact */
+
+#contact-form{
+    @include parallax(url(../../img/3892ddc66d8112551b93a9abf4e53d17.jpg));
+    height: 100vh;
+}
+
+#contact-box{
+    width: 40%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+
+    img{
+        width: 20%;
+    }
+
+    h1{
+        color: black;
+    }
+}
+
+

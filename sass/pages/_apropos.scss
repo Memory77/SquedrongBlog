@@ -1,0 +1,27 @@
+#about{
+    padding: 5%;
+    border: 2px solid pink;
+    margin: 80px;
+    box-shadow: 10px 5px 5px #fff;
+    background-color: rgba(255, 255, 255, 0.7);
+    h1{
+        color: rgb(10, 10, 10);
+    }
+    img{
+        width: 40%;
+        margin: 0 30%;
+        padding-top: 50px;
+    }
+}
+
+#àpropos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    @include parallax(url(../../img/3892ddc66d8112551b93a9abf4e53d17.jpg));
+}
+
+#about-img img{
+    margin-right: 70px;
+}
+

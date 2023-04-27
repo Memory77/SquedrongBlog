@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-nav {
+    display: flex;
+    justify-items: flex-end;
+    list-style: none;
+    align-items: end;
+    justify-content: end;
+}
+
+li {
+    padding: 0 10px;
+    text-transform: uppercase;
+
+}
