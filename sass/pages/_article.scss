@@ -1,16 +1,16 @@
-#auteur img{
-    width: 80%;
-    margin-right: 559px;
-}
-
 #auteur{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: auto;
+    img{
+        width: 80%;
+        margin-right: 559px;
+    }
+    p {
+        font-size: 18px;
+    }
 }
-
-
 
 #article{
     margin-left: 500px;
@@ -31,17 +31,3 @@
     }
 }
 
-#auteur p {
-    font-size: 18px;
-}
-
-.social-media{
-    display: flex;
-    list-style: none;
-    a{
-        border: 2px solid black;
-        padding: 10px;
-        color: azure;
-        margin: 10px;
-    }
-}

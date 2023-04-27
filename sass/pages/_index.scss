@@ -29,14 +29,15 @@
     flex-direction: column ;
 }
 
-.second img {
-    height: 200px;
-    width: 350px;
-}
+
 .second { 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    img {
+        height: 200px;
+        width: 350px;
+    }
     
 }
 h1 {

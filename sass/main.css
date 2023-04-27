@@ -16,32 +16,7 @@ h1 {
   list-style: none;
 }
 .social-media a {
-  border: 2px solid blue;
-  border-radius: 5px;
-  padding: 10px;
-  color: azure;
-  margin: 10px;
-  text-decoration: none;
-}
-
-.social-linkedin {
-  background-color: blue;
-}
-
-.social-twitter {
-  background-color: rgb(94, 169, 240);
-}
-
-.social-black {
-  background-color: black;
-}
-
-.social-media {
-  display: flex;
-  list-style: none;
-}
-.social-media a {
-  border: 2px solid blue;
+  border: 2px solid transparent;
   border-radius: 5px;
   padding: 10px;
   color: azure;
@@ -111,16 +86,18 @@ li {
   margin-right: 70px;
 }
 
-#auteur img {
-  width: 80%;
-  margin-right: 559px;
-}
-
 #auteur {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: auto;
+}
+#auteur img {
+  width: 80%;
+  margin-right: 559px;
+}
+#auteur p {
+  font-size: 18px;
 }
 
 #article {
@@ -140,21 +117,6 @@ li {
 #article p {
   margin-right: 179px;
   text-align: justify;
-}
-
-#auteur p {
-  font-size: 18px;
-}
-
-.social-media {
-  display: flex;
-  list-style: none;
-}
-.social-media a {
-  border: 2px solid black;
-  padding: 10px;
-  color: azure;
-  margin: 10px;
 }
 
 /* section contact */
@@ -218,15 +180,14 @@ li {
   flex-direction: column;
 }
 
-.second img {
-  height: 200px;
-  width: 350px;
-}
-
 .second {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+.second img {
+  height: 200px;
+  width: 350px;
 }
 
 h1 {

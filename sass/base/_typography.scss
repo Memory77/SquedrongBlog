@@ -13,27 +13,3 @@ h1{
     text-transform: uppercase;
 }
 
-.social-media{
-    display: flex;
-    list-style: none;
-    a{
-        border: 2px solid blue;
-        border-radius: 5px;
-        padding: 10px;
-        color: azure;
-        margin: 10px;
-        text-decoration: none;
-    }
-}
-
-.social-linkedin{
-    background-color: blue;
-}
-
-.social-twitter{
-    background-color: rgb(94, 169, 240);
-}
-
-.social-black{
-    background-color: black;
-}
